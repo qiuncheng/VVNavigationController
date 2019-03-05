@@ -1,6 +1,6 @@
 # VVNavigationController
 
-[![CI Status](https://img.shields.io/travis/mdj940619@163.com/VVNavigationController.svg?style=flat)](https://travis-ci.org/mdj940619@163.com/VVNavigationController)
+[![CI Status](https://img.shields.io/travis/qiuncheng/VVNavigationController.svg?style=flat)](https://travis-ci.org/qiuncheng/VVNavigationController)
 [![Version](https://img.shields.io/cocoapods/v/VVNavigationController.svg?style=flat)](https://cocoapods.org/pods/VVNavigationController)
 [![License](https://img.shields.io/cocoapods/l/VVNavigationController.svg?style=flat)](https://cocoapods.org/pods/VVNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/VVNavigationController.svg?style=flat)](https://cocoapods.org/pods/VVNavigationController)
@@ -22,7 +22,7 @@ pod 'VVNavigationController'
 
 ## Author
 
-mdj940619@163.com, qiuncheng@gmail.com
+qiuncheng, qiuncheng@gmail.com
 
 ## License
 

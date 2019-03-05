@@ -1,0 +1,16 @@
+PODS:
+  - VVNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - VVNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  VVNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VVNavigationController: 8cf4803832d701b7a28c1187ab51dbd374fd00b4
+
+PODFILE CHECKSUM: 4feccc2f1d22c83a53e9ca815804cd419dd101c3
+
+COCOAPODS: 1.6.1

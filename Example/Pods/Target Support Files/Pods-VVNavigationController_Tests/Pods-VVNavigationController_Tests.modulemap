@@ -1,0 +1,6 @@
+framework module Pods_VVNavigationController_Tests {
+  umbrella header "Pods-VVNavigationController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

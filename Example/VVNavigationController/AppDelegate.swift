@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  VVNavigationController
 //
-//  Created by mdj940619@163.com on 03/05/2019.
-//  Copyright (c) 2019 mdj940619@163.com. All rights reserved.
+//  Created by qiuncheng on 03/05/2019.
+//  Copyright (c) 2019 qiuncheng. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

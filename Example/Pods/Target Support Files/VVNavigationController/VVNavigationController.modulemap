@@ -1,0 +1,6 @@
+framework module VVNavigationController {
+  umbrella header "VVNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
