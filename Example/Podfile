@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VVNavigationController_Example' do
+  pod 'VVNavigationController', :path => '../'
+
+  target 'VVNavigationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
