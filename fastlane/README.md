@@ -15,11 +15,12 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### release_pod
+## iOS
+### ios release
 ```
-fastlane release_pod
+fastlane ios release
 ```
-
+Release a new version to pods
 
 ----
 

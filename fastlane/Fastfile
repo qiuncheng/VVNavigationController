@@ -15,12 +15,20 @@ update_fastlane
 
 default_platform(:ios)
 
-import_from_git(
-  url: "git@github.com:foxsofter/fastlane_pod_template.git", # The URL of the repository to import the Fastfile from.
-  branch: "master", # The branch to checkout on the repository. Defaults to `HEAD`.
-  path: "fastlane/Fastfile" # The path of the Fastfile in the repository. Defaults to `fastlane/Fastfile`.
-)
-lane :release do |options|
-  pod_name = options[:pod_name]
-  release_pod(pod_name: pod_name)
+platform :ios do
+  desc "Release a new version to pods"
+  lane :release do |options|
+    # add actions here: https://docs.fastlane.tools/actions
+    new_version = options[:version]
+    raise "Version is missing" if new_version.nil?
+    ensure_git_branch
+    ensure_git_status_clean
+
+    version_bump_podspec(path: "VVNavigationController.podspec", version_number: "#{new_version}")
+
+    git_commit(path: ["./*.swift", "./VVNavigationController.podspec"], message: "Bump new version #{new_version}")
+    add_git_tag(tag: new_version)
+    push_to_git_remote
+    pod_push(allow_warnings: true)
+  end
 end
